@@ -64,7 +64,7 @@ function customerReducer(state = initialStateCustomer, action) {
 
 const rootReducer = combineReducers({
     account: accountReducer,
-    cusotmer: customerReducer
+    customer: customerReducer
 })
 
 const store = createStore(rootReducer);
